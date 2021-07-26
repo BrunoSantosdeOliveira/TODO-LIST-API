@@ -13,9 +13,11 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioRepository repository;
 	
-	 @GetMapping(path ="api/usuario/{codigo}")
-     public ResponseEntity consultar(@PathVariable("codigo") Integer codigo) {
-    	 return repository.findById(codigo)
+
+	 
+	 @GetMapping(path ="api/nome/{nome}/senha/{senha}")
+     public ResponseEntity verificar(@PathVariable("nome") String nome,@PathVariable("senha") int senha) {
+    	 return repository.findUsuarioByloginSenha(nome,senha)
     			 .map(record -> ResponseEntity.ok().body(record))
     			 .orElse(ResponseEntity.notFound().build());
      }
