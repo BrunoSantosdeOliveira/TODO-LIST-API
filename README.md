@@ -1,6 +1,6 @@
 # TODO-LIST-API
 
-Repositório para desenvolvimento uma RESTFUL API simples em Java que armazena e atualiza tarefas(TODO-LIST API)
+Repositório para desenvolver uma RESTFUL API simples em Java que armazena e atualiza tarefas(TODO-LIST API)
 
 
 ### 💻 Desenvolvedor
@@ -22,9 +22,9 @@ Tecnologias que utilizamos para desenvolver este web client:
 
 
 ## 👨🏻‍💻 Objetivos
-<p>-Construir uma API .Net  que possua 2 endpoints principais:</p>
-<p>-Recuperação de todas as contas bancárias</p>
-<p>-Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)</p>
+<p>-API RESTFUL com login :</p>
+<p>-Gerenciamento de tarefas para cada usuario cadastrado</p>
+
 
 
 
