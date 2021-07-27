@@ -11,7 +11,7 @@ Repositório para desenvolver uma RESTFUL API simples em Java que armazena e atu
 
 ## 🚀 Ferramentas Utilizadas
 
-Tecnologias que utilizamos para desenvolver este web client:
+Tecnologias que utilizei para desenvolver esta  RESTFUL API simples em Java:
 
 - [Java](https://www.java.com/pt-BR/)
 - [IDE Eclipse](https://www.eclipse.org/eclipseide/)
