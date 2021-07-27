@@ -1,13 +1,10 @@
 package brunocorp.agenda;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AgendaApplicationTests {
-
+public class AgendaApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
